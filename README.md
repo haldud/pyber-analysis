@@ -2,7 +2,7 @@
 Throughout this module we have been analyzing data for a ride-sharing company called PyBer. We were provided two files that we based our analysis on:
 1. The first data set contains the cities along with their driver count and type (Urban, Suburban, or Rural):
    [City Data](https://github.com/haldud/pyber-analysis/blob/66698e262ebf800fcbeb70d7546f48cc3330381d/Resources/city_data.csv)
-2. The second data set contains all of the unique ride data that includes the unique ride id, fare amount, and city:
+2. The second data set contains all of the unique ride data that includes the ride id, fare amount, and city:
    [Ride Data](https://github.com/haldud/pyber-analysis/blob/66698e262ebf800fcbeb70d7546f48cc3330381d/Resources/ride_data.csv)
 
 ## Overview
@@ -55,5 +55,9 @@ The results for part 1 of our analysis are as follows:
     | Rural     |      $55.49 |
     | Suburban  |      $39.50	|
     | Urban     |      $16.57 |
-  
+
+For part 2 of our analysis, below is the multiple-line graph to show weekly fares by city type. We can see that there are no obvious trends in fare changes for each city type. We can also tell that the urban fare totals are about twice as large as suburban - they are typically about $1,000 more for each week's bucket. Suburban fare totals are usually two to three times larger than rural. Rural city totals are not exceeding $500.
+
+![Multi-line Graph of Weekly Fares by City Type](https://github.com/haldud/pyber-analysis/blob/4987cf4b89b7eacd0d8f5c5e94c359abe1730a86/analysis/PyBer_fare_summary.png)
+
 ## Summary
