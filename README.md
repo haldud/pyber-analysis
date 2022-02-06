@@ -49,13 +49,11 @@ The results for part 1 of our analysis are as follows:
     | Suburban  |      $30.97 |
     | Urban     |      $24.53 |
   
- - Average fares are about four dollars less in Suburban cities than Rural, and about six dollars less in Urban than Suburban.
+ - Average fare per driver are about 16 dollars less in Suburban cities than Rural, and about 23 dollars less in Urban than Suburban.
     | Type      |       Total |
     | --------- | ----------: |
     | Rural     |      $55.49 |
     | Suburban  |      $39.50	|
     | Urban     |      $16.57 |
-  
-  
   
 ## Summary
