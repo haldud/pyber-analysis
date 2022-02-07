@@ -63,6 +63,6 @@ For part 2 of our analysis, below is the multiple-line graph to show weekly fare
 ## Summary
 The multi-line graph paints a good picture of the disparities between rural, suburban, and urban total fares. The analysis in the first part allowed us to identify the primary reasons for the disparities. My recommendations to the CEO are below. It is important to note that there very well may exist other reasons for the disparities, but those are not identified in the data set we were provided.
 
-1. Increase the total number of rides and drivers in rural cities. Suburban would most likely benefit from the same, but the primary focus should be on rural areas. An increase in number of drivers in rural and suburban will hopefully increase the number of total rides.
+1. Increase the total number of rides and drivers in rural cities. Suburban cities would most likely benefit from the same. An increase in number of drivers in rural and suburban will hopefully increase the number of total rides.
 2. Improve the ratio of total drivers to rides in urban areas. It would be difficult to recommend lowering the number of drivers, but there are fewer rides than drivers in urban areas. Ideally, the number of rides can be increased with the existing number of drivers.
 3. Increase the fare per ride amounts for urban areas. The average per ride is more than $6 lower than in suburban cities and about $10 lower than in rural cities.
