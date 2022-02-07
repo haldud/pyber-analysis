@@ -2,11 +2,11 @@
 Throughout this module we have been analyzing data for a ride-sharing company called PyBer. We were provided two files that we based our analysis on:
 1. The first data set contains the cities along with their driver count and type (Urban, Suburban, or Rural):
    [City Data](https://github.com/haldud/pyber-analysis/blob/66698e262ebf800fcbeb70d7546f48cc3330381d/Resources/city_data.csv)
-2. The second data set contains all of the unique ride data that includes the ride id, fare amount, and city:
+2. The second data set contains the unique ride data that includes the ride id, fare amount, and city:
    [Ride Data](https://github.com/haldud/pyber-analysis/blob/66698e262ebf800fcbeb70d7546f48cc3330381d/Resources/ride_data.csv)
 
 ## Overview
-For our challenge, we were given a new assignment to analyze data by city type. We used Pandas and Motplotlib to combine the data from the city and ride data files.
+For our challenge, we were given a new assignment to analyze data by city type. We used Pandas and Matplotlib to combine the data from the city and ride data files.
 
 For part 1 of our challenge, we identified the following statistics by city type:
 - Total Rides
@@ -35,7 +35,7 @@ The results for part 1 of our analysis are as follows:
     | Suburban  |       490 |
     | Urban     |      2405  |
  
-- Total fares are almost fiver times greater in Suburban cities than Rural, and about two times greater in Urban than Suburban.
+- Total fares are almost five times greater in Suburban cities than Rural, and about two times greater in Urban than Suburban.
     | Type      | Total       |
     | --------- | ----------: |
     | Rural     | $4,327.93   |
@@ -61,3 +61,8 @@ For part 2 of our analysis, below is the multiple-line graph to show weekly fare
 ![Multi-line Graph of Weekly Fares by City Type](https://github.com/haldud/pyber-analysis/blob/4987cf4b89b7eacd0d8f5c5e94c359abe1730a86/analysis/PyBer_fare_summary.png)
 
 ## Summary
+The multi-line graph paints a good picture of the disparities between rural, suburban, and urban total fares. The analysis in the first part allowed us to identify the primary reasons for the disparities. My recommendations to the CEO are below. It is important to note that there very well may exist other reasons for the disparities, but those are not identified in the data set we were provided.
+
+1. Increase the total number of rides and drivers in rural cities. Suburban would most likely benefit from the same, but the primary focus should be on rural areas. Increase drivers in rural and suburban will hopefully increase the number of rides.
+2. Improve the ratio of total drivers to rides in urban areas. It would be difficult to recommend lowering the number of drivers, but there are fewer rides than drivers in urban areas. Ideally, the number of rides can be increased with the existing number of drivers.
+3. Increase the fare per ride amounts for urban areas. The average per ride is more than $6 lower than in suburban cities and about $10 lower than in rural cities.
